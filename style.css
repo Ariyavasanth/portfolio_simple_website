@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:"Young Serif", serif;
+}
+
+.portfolio-container{
+    margin:2rem
+}
+
+.portfolio-head{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+}
+
+.portfolio-head__name{
+    font-size:3rem;
+    font-weight:bold;
+    padding-bottom:0.5rem;
+}
+
+.portfolio-head__role{
+    padding-bottom:0.6rem ;
+    font-size: 1.5rem;
+}
+
+.portfolio-head__contact{
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    display:inline-block;
+    padding:0.2rem 1rem; 
+}
+
+.portfolio-contents,.portfolio-intrest,.portfolio-projects,.portfolio-footer{
+    margin-top:1.813rem;
+}
+
+.portfolio-contents__description,.portfolio-intrest__description,.portfolio-projects__description,.portfolio-footer__description
+{
+    margin-top: 10px;
+
+}
+
+.portfolio-intrest{
+    background-color: plum;
+    padding:1rem 0rem 1rem 1rem;
+    border-radius:10px;
+    vertical-align: top;
+}
+
+.portfolio-intrest__title{
+    margin-top: 10px;
+}
+
+.portfolio-projects{
+    background-color: orange;
+    padding:1rem 0rem 1rem 1rem;
+    min-height:200px;
+    border-radius:10px;
+    display: inline-block;
+}
+
+
+.portfolio-intrest__description li{
+    list-style: none;
+}
+
+.portfolio-projects li{
+    list-style:none;
+}
+
+
+.portfolio-footer{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+}

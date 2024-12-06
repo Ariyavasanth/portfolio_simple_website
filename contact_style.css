@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 16px;
+}
+
+.contact-container{
+    margin:1.5rem;
+}
+
+.header{
+    background-color: black;
+    color:white;
+    font-family: "Young Serif", serif;
+    padding:1.5rem;
+}
+
+.header__name{
+    font-size:3rem;
+}
+
+.header__description{
+    font-size:1.5rem;
+}
+
+.header__home{
+    background-color: orangered;
+    text-decoration: none;
+    color:white;
+    padding:0.2rem 1rem;
+    display: inline-block;
+    margin-top:0.5rem;
+}
+
+.form-inputs{
+    margin:1.5rem 0rem;
+}
+
+.form-inputs__name{
+    border:none;
+    border-bottom: 1px solid black;
+    padding:0.4rem;
+}
+
+.form-inputs__email{
+    border:none;
+    border-bottom: 1px solid black;
+    padding:0.4rem;
+}
+
+.form-inputs__name,.form-inputs__email:focus{
+    border-bottom:2px solid orangered;
+    outline:none;
+    
+    
+}
+
+.form-inputs__message{
+    padding: 0.4rem;
+    outline:none;
+}
+
+.form-inputs__message:focus{
+    border: 2px solid orangered;
+}
+
+.forem-inputs__btn{
+    background-color: orangered;
+    color:white;
+    padding:0.2rem 1rem;
+    font-family:"Young Serif", serif;
+    font-size: 1rem;
+    border:none;
+    outline: none;
+    margin-top: 0.5rem;
+}
+
+.forem-inputs__btn:hover{
+    background-color: hsla(16, 100%, 50%, 0.829);
+    
+}
+.form-inputs__name,.form-inputs__email{
+    margin-bottom:1rem;  
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding:1.5rem;
+}
+
+.footer__description{
+    text-decoration: none;
+}
+
+.footer__description:active{
+    text-decoration: underline;
+}
