@@ -4,23 +4,31 @@
 }
 
 body{
-    font-family:"Young Serif", serif;
+    font-family:"poppins", serif;
 }
 
 .portfolio-container{
-    margin:2rem
+    margin:1rem;
 }
 
 .portfolio-head{
     background-color: black;
     color: white;
     padding: 1.5rem;
+    border-radius:10px;
 }
 
 .portfolio-head__name{
     font-size:3rem;
-    font-weight:bold;
-    padding-bottom:0.5rem;
+  
+}
+
+@media screen and (max-width:600px)
+{
+    .portfolio-head__name{
+        font-size:2.5rem;
+    }
+
 }
 
 .portfolio-head__role{
@@ -46,20 +54,28 @@ body{
 
 }
 
+.portfolio-contents{
+    background-color: orange;
+    padding:1rem;
+    border-radius: 10px;
+
+}
+
 .portfolio-intrest{
-    background-color: plum;
-    padding:1rem 0rem 1rem 1rem;
+    padding:1rem;
     border-radius:10px;
-    vertical-align: top;
+    border: 2px solid orange;
+    
 }
 
 .portfolio-intrest__title{
     margin-top: 10px;
+
 }
 
 .portfolio-projects{
     background-color: orange;
-    padding:1rem 0rem 1rem 1rem;
+    padding:1rem ;
     min-height:200px;
     border-radius:10px;
     display: inline-block;
@@ -79,4 +95,16 @@ body{
     background-color: black;
     color: white;
     padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.portfolio-footer__linkedin{
+    color:orange;
+    text-decoration: none;
+}
+
+.portfolio-footer__linkedin:focus{
+    text-decoration: underline;
+
+    
 }

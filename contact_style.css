@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-    font-size: 16px;
 }
 
 .contact-container{
@@ -11,7 +10,7 @@
 .header{
     background-color: black;
     color:white;
-    font-family: "Young Serif", serif;
+    font-family: "poppins", serif;
     padding:1.5rem;
 }
 
@@ -20,16 +19,24 @@
 }
 
 .header__description{
-    font-size:1.5rem;
+    font-size:1rem;
 }
 
 .header__home{
-    background-color: orangered;
+    background-color: orange;
     text-decoration: none;
     color:white;
     padding:0.2rem 1rem;
     display: inline-block;
     margin-top:0.5rem;
+}
+
+@media screen and (max-width:600px)
+{
+    .header__name{
+        font-size:2rem;
+
+    }
 }
 
 .form-inputs{
@@ -39,33 +46,33 @@
 .form-inputs__name{
     border:none;
     border-bottom: 1px solid black;
-    padding:0.4rem;
+    padding:0.2rem;
 }
 
 .form-inputs__email{
     border:none;
     border-bottom: 1px solid black;
-    padding:0.4rem;
+    padding:0.2rem;
 }
 
 .form-inputs__name,.form-inputs__email:focus{
-    border-bottom:2px solid orangered;
+    border-bottom:2px solid orange;
     outline:none;
     
     
 }
 
 .form-inputs__message{
-    padding: 0.4rem;
+    padding: 0.2rem;
     outline:none;
 }
 
 .form-inputs__message:focus{
-    border: 2px solid orangered;
+    border: 2px solid orange;
 }
 
 .forem-inputs__btn{
-    background-color: orangered;
+    background-color: orange;
     color:white;
     padding:0.2rem 1rem;
     font-family:"Young Serif", serif;
