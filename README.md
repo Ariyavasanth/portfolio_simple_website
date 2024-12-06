@@ -16,7 +16,7 @@ This is a simple portfolio website created using HTML and CSS. It includes two p
 
 You can access my portfolio website ny visiting [link] free] Feel free to explore and get in touch
 
-##Contributing
+## Contributing
 
 If you'd like to contrubuting ot suggest improvement, please feel free to open an issue or pull request. You feedback is greatly appriciated
 
