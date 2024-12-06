@@ -14,7 +14,7 @@ This is a simple portfolio website created using HTML and CSS. It includes two p
 
 ## How to View
 
-You can access my portfolio website ny visiting [link] free] Feel free to explore and get in touch
+You can access my portfolio website ny visiting [link](https://simplportfolio.netlify.app) Feel free to explore and get in touch
 
 ## Contributing
 
