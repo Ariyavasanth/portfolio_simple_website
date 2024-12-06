@@ -12,6 +12,7 @@
     color:white;
     font-family: "poppins", serif;
     padding:1.5rem;
+    border-radius:10px;
 }
 
 .header__name{
@@ -53,6 +54,7 @@
     border:none;
     border-bottom: 1px solid black;
     padding:0.2rem;
+    
 }
 
 .form-inputs__name,.form-inputs__email:focus{
@@ -94,6 +96,8 @@
     background-color: black;
     color: white;
     padding:1.5rem;
+    border-radius: 10px;
+
 }
 
 .footer__description{
